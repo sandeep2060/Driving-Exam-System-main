@@ -8,6 +8,7 @@ import Safety from '../sections/Safety'
 import Exam from '../sections/Exam'
 import Process from '../sections/Process'
 import Apply from '../sections/Apply'
+import Rules from '../sections/Rules'
 import Notices from '../sections/Notices'
 import Contact from '../sections/Contact'
 import ResetPasswordModal from '../auth/ResetPasswordModal'
@@ -115,6 +116,7 @@ function Home() {
         <Safety />
         <Exam />
         <Process />
+        <Rules />
         <Apply
           user={user}
           authView={authView}

@@ -1,28 +1,24 @@
+import { useTranslation } from 'react-i18next';
 import AuthCard from '../auth/AuthCard'
 
 function Apply({ user, authView, setAuthView, onProfileHydrate, applySectionRef, onOpenResetModal }) {
+  const { t } = useTranslation();
+
   return (
     <section id="apply" ref={applySectionRef} className="section apply-section">
       <div className="section-header">
-        <h2>Apply Online</h2>
-        <p>
-          Create your secure account or log in to continue your licence application,
-          manage exam dates, and view results.
-        </p>
+        <h2>{t('apply_section.title')}</h2>
+        <p>{t('apply_section.subtitle')}</p>
       </div>
 
       <div className="apply-grid">
         <div className="apply-info">
-          <h3>Citizen-friendly digital portal</h3>
-          <p>
-            Your personal information is encrypted and processed through secure
-            government-approved systems. Only authorized officials can access your
-            records.
-          </p>
+          <h3>{t('apply_section.info_title')}</h3>
+          <p>{t('apply_section.info_desc')}</p>
           <ul className="bullet-list">
-            <li>Role-based dashboards for citizens and administrators.</li>
-            <li>Real-time application status and notifications.</li>
-            <li>Integrated exam and licence record management.</li>
+            {t('apply_section.info_list', { returnObjects: true }).map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
           </ul>
         </div>
 

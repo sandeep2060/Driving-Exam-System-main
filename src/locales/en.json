@@ -1,0 +1,141 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "apply": "Apply",
+        "exam": "Exam Preparation",
+        "safety": "Safety Rules",
+        "rules": "License Rules",
+        "contact": "Contact",
+        "login": "Login",
+        "gov_nepal": "Government of Nepal",
+        "ministry": "Ministry of Physical Infrastructure & Transport",
+        "dotm": "Department of Transport Management"
+    },
+    "hero": {
+        "official_service": "Official digital service",
+        "title": "Nepal Driving Licence Online System",
+        "subtitle": "Register, prepare, and apply for your driving licence easily and securely through the official Government of Nepal portal.",
+        "start_application": "Start Application",
+        "check_status": "Check Application Status",
+        "secure": "Secure & verified",
+        "auth_desc": "Supabase-backed authentication",
+        "nationwide": "Nationwide coverage",
+        "coverage_desc": "All DoTM offices in Nepal"
+    },
+    "rules": {
+        "title": "Driving License Rules & Regulations",
+        "subtitle": "Essential information for new applicants in Nepal",
+        "age": {
+            "title": "Age Requirements",
+            "two_wheeler": "Two-wheelers: Minimum 18 years",
+            "four_wheeler": "Small/Medium Four-wheelers: Minimum 21 years",
+            "heavy": "Heavy Vehicles: Minimum 23 years"
+        },
+        "documents": {
+            "title": "Required Documents",
+            "citizenship": "Original Nepali Citizenship card and a photocopy",
+            "blood_group": "Blood group certificate (optional if already known)",
+            "application": "Printed online application form"
+        },
+        "exam_process": {
+            "title": "Examination Process",
+            "written": "Written Exam: 20 questions (5 marks each). Need 80/100 to pass.",
+            "trial": "Practical (Trial): Score at least 70/100 following the new point system."
+        }
+    },
+    "about": {
+        "title": "About the Portal",
+        "description": "The Nepal Driving Licence Online System is a unified digital platform for licence registration, written exams, trial scheduling, and renewal management.",
+        "apply_title": "Online application",
+        "apply_desc": "Submit your driving licence application, upload documents, and select your preferred DoTM office from anywhere in Nepal.",
+        "scheduling_title": "Smart scheduling",
+        "scheduling_desc": "View available written and trial exam dates, choose a convenient slot, and receive SMS/email confirmation.",
+        "updates_title": "Transparent updates",
+        "updates_desc": "Track your application status, exam results, and licence issuance progress in real time."
+    },
+    "safety": {
+        "title": "Safety & Traffic Rules",
+        "subtitle": "Essential guidelines for every driver in Nepal",
+        "signals_title": "Traffic signals",
+        "signals_desc": "Obey traffic lights, stop lines, and traffic police hand signals.",
+        "helmet_title": "Helmet & seatbelt",
+        "helmet_desc": "Always wear a BIS-standard helmet and fasten your seatbelt.",
+        "speed_title": "Speed limits",
+        "speed_desc": "Follow posted speed limits and slow down near schools and hospitals.",
+        "lane_title": "Lane discipline",
+        "lane_desc": "Keep to your lane, use indicators, and avoid sudden lane changes.",
+        "zebra_title": "Zebra crossings",
+        "zebra_desc": "Stop for pedestrians at crossings and give priority to school children.",
+        "alcohol_title": "No drunk driving",
+        "alcohol_desc": "Never drive under the influence of alcohol or narcotic substances."
+    },
+    "exam": {
+        "title": "Driving Exam Information",
+        "subtitle": "Understand the written and practical trial exams before you apply.",
+        "written_title": "Written exam",
+        "written_list": [
+            "Multiple-choice questions on traffic signs and rules.",
+            "Basic vehicle mechanics and road safety scenarios.",
+            "Available in Nepali; sample sets will be provided online."
+        ],
+        "trial_title": "Trial categories",
+        "trial_list": [
+            "Two-wheeler (Motorcycle, Scooter).",
+            "Light vehicle (Car, Jeep, Van).",
+            "Heavy vehicle (Bus, Truck, Tractor, etc.)."
+        ]
+    },
+    "process": {
+        "title": "Step-by-step process",
+        "subtitle": "Follow these steps to obtain your driving licence through the portal.",
+        "step1_title": "Create account",
+        "step1_desc": "Register with your email address and choose your role.",
+        "step2_title": "Fill application form",
+        "step2_desc": "Provide personal details, address, and licence category.",
+        "step3_title": "Book exam date",
+        "step3_desc": "Select available written and trial exam dates for your location.",
+        "step4_title": "Pay fees",
+        "step4_desc": "Complete secure online payment using approved channels.",
+        "step5_title": "Attend written exam",
+        "step5_desc": "Appear at the designated DoTM office with required documents.",
+        "step6_title": "Attend trial",
+        "step6_desc": "Complete the driving trial; successful candidates receive licence issuance notification."
+    },
+    "notices": {
+        "title": "Public Notices & Announcements",
+        "subtitle": "Official updates from the Department of Transport Management.",
+        "notice1_title": "Online application maintenance window",
+        "notice1_desc": "The portal will be temporarily unavailable from 10:00 PM to 2:00 AM for scheduled system upgrades and security improvements.",
+        "notice2_title": "New trial routes for Kathmandu Valley",
+        "notice2_desc": "Updated trial exam routes and safety guidelines have been issued for licence categories A, B, and C.",
+        "notice3_title": "Road safety awareness week",
+        "notice3_desc": "Citizens are encouraged to participate in awareness programmes led by Nepal Traffic Police across all provinces."
+    },
+    "apply_section": {
+        "title": "Apply Online",
+        "subtitle": "Create your secure account or log in to continue your licence application, manage exam dates, and view results.",
+        "info_title": "Citizen-friendly digital portal",
+        "info_desc": "Your personal information is encrypted and processed through secure government-approved systems. Only authorized officials can access your records.",
+        "info_list": [
+            "Role-based dashboards for citizens and administrators.",
+            "Real-time application status and notifications.",
+            "Integrated exam and licence record management."
+        ]
+    },
+    "contact": {
+        "title": "Contact & Support",
+        "subtitle": "For technical assistance or queries regarding driving licence applications, please reach out to your nearest DoTM office.",
+        "dotm": "Department of Transport Management",
+        "ministry": "Ministry of Physical Infrastructure & Transport, Government of Nepal",
+        "location": "Kathmandu, Nepal",
+        "phone": "Phone: +977-1-4474921",
+        "email": "Email: info@dotm.gov.np",
+        "online_title": "Online Support",
+        "online_list": [
+            "Portal usage and account support.",
+            "Application status and exam schedule queries.",
+            "Feedback and suggestions for system improvement."
+        ]
+    }
+}

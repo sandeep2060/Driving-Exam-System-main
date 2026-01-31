@@ -1,43 +1,44 @@
+import { useTranslation } from 'react-i18next';
+
 function Safety() {
+  const { t } = useTranslation();
+
   return (
     <section id="safety" className="section safety-section">
       <div className="section-header">
-        <h2>Driving Safety Rules</h2>
-        <p>
-          Every citizen shares responsibility for road safety. Learn and follow
-          these essential rules before you drive.
-        </p>
+        <h2>{t('safety.title')}</h2>
+        <p>{t('safety.subtitle')}</p>
       </div>
       <div className="icon-grid">
         <article className="icon-card">
           <div className="icon-circle">🚦</div>
-          <h3>Traffic signals</h3>
-          <p>Obey traffic lights, stop lines, and traffic police hand signals.</p>
+          <h3>{t('safety.signals_title')}</h3>
+          <p>{t('safety.signals_desc')}</p>
         </article>
         <article className="icon-card">
           <div className="icon-circle">🪖</div>
-          <h3>Helmet & seatbelt</h3>
-          <p>Always wear a BIS-standard helmet and fasten your seatbelt.</p>
+          <h3>{t('safety.helmet_title')}</h3>
+          <p>{t('safety.helmet_desc')}</p>
         </article>
         <article className="icon-card">
           <div className="icon-circle">📏</div>
-          <h3>Speed limits</h3>
-          <p>Follow posted speed limits and slow down near schools and hospitals.</p>
+          <h3>{t('safety.speed_title')}</h3>
+          <p>{t('safety.speed_desc')}</p>
         </article>
         <article className="icon-card">
           <div className="icon-circle">🛣️</div>
-          <h3>Lane discipline</h3>
-          <p>Keep to your lane, use indicators, and avoid sudden lane changes.</p>
+          <h3>{t('safety.lane_title')}</h3>
+          <p>{t('safety.lane_desc')}</p>
         </article>
         <article className="icon-card">
           <div className="icon-circle">🚸</div>
-          <h3>Zebra crossings</h3>
-          <p>Stop for pedestrians at crossings and give priority to school children.</p>
+          <h3>{t('safety.zebra_title')}</h3>
+          <p>{t('safety.zebra_desc')}</p>
         </article>
         <article className="icon-card">
           <div className="icon-circle">🚫</div>
-          <h3>No drunk driving</h3>
-          <p>Never drive under the influence of alcohol or narcotic substances.</p>
+          <h3>{t('safety.alcohol_title')}</h3>
+          <p>{t('safety.alcohol_desc')}</p>
         </article>
       </div>
     </section>

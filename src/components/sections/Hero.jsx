@@ -1,15 +1,18 @@
+import { useTranslation } from 'react-i18next';
+
 function Hero({ onSignupClick, onCheckStatusClick }) {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
       <div className="hero-text">
         <p className="pill">
           <span className="pill-dot" />
-          Official digital service
+          {t('hero.official_service')}
         </p>
-        <h1>Nepal Driving Licence Online System</h1>
+        <h1>{t('hero.title')}</h1>
         <p className="hero-subtitle">
-          Register, prepare, and apply for your driving licence easily and securely
-          through the official Government of Nepal portal.
+          {t('hero.subtitle')}
         </p>
 
         <div className="hero-actions">
@@ -18,25 +21,25 @@ function Hero({ onSignupClick, onCheckStatusClick }) {
             className="primary-btn large"
             onClick={onSignupClick}
           >
-            Start Application
+            {t('hero.start_application')}
           </button>
           <button
             type="button"
             className="secondary-outline-btn large"
             onClick={onCheckStatusClick}
           >
-            Check Application Status
+            {t('hero.check_status')}
           </button>
         </div>
 
         <div className="hero-meta">
           <div>
-            <p className="hero-meta-label">Secure & verified</p>
-            <p className="hero-meta-value">Supabase-backed authentication</p>
+            <p className="hero-meta-label">{t('hero.secure')}</p>
+            <p className="hero-meta-value">{t('hero.auth_desc')}</p>
           </div>
           <div>
-            <p className="hero-meta-label">Nationwide coverage</p>
-            <p className="hero-meta-value">All DoTM offices in Nepal</p>
+            <p className="hero-meta-label">{t('hero.nationwide')}</p>
+            <p className="hero-meta-value">{t('hero.coverage_desc')}</p>
           </div>
         </div>
       </div>

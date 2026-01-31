@@ -1,27 +1,28 @@
+import { useTranslation } from 'react-i18next';
+
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="section contact-section">
       <div className="section-header">
-        <h2>Contact & Support</h2>
-        <p>
-          For technical assistance or queries regarding driving licence applications,
-          please reach out to your nearest DoTM office.
-        </p>
+        <h2>{t('contact.title')}</h2>
+        <p>{t('contact.subtitle')}</p>
       </div>
       <div className="contact-grid">
         <div>
-          <h3>Department of Transport Management</h3>
-          <p>Ministry of Physical Infrastructure & Transport, Government of Nepal</p>
-          <p>Kathmandu, Nepal</p>
-          <p>Phone: +977-1-XXXXXXX</p>
-          <p>Email: info@dotm.gov.np</p>
+          <h3>{t('contact.dotm')}</h3>
+          <p>{t('contact.ministry')}</p>
+          <p>{t('contact.location')}</p>
+          <p>{t('contact.phone')}</p>
+          <p>{t('contact.email')}</p>
         </div>
         <div>
-          <h3>Online Support</h3>
+          <h3>{t('contact.online_title')}</h3>
           <ul className="bullet-list">
-            <li>Portal usage and account support.</li>
-            <li>Application status and exam schedule queries.</li>
-            <li>Feedback and suggestions for system improvement.</li>
+            {t('contact.online_list', { returnObjects: true }).map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
           </ul>
         </div>
       </div>
